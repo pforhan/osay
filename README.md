@@ -20,6 +20,7 @@ Architecture
 ------------
 
 | Term | Definition |
+| --- | --- |
 | Events | things that happen |
 | Contexts | common data about the sender or session that one or more events may be associated with. Contexts can be attached to the all events or to only events in a specific channel. |
 | Channels | places events flow to |
