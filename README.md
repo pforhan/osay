@@ -19,15 +19,11 @@ Highlights
 Architecture
 ------------
 
-Events
-: things that happen
-Contexts
-: common data about the sender or session that one or more events may be associated with. Contexts
-can be attached to the all events or to only events in a specific channel.
-Channels
-: places events flow to
-Deciders
-: what should be done with events
+| Term | Definition |
+| Events | things that happen |
+| Contexts | common data about the sender or session that one or more events may be associated with. Contexts can be attached to the all events or to only events in a specific channel. |
+| Channels | places events flow to |
+| Deciders | what should be done with events |
 
 1. Events flow into channels -- generally one event type per channel.
 2. Current context data is attached upon emission.
